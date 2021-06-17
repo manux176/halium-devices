@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="LOS" fetch="https://github.com/LineageOS" revision="lineage-16.0" />
+	<remote name="tmp" fetch="https://github.com/TheMuppets" revision="lineage-16.0" />
+
+	<project path="device/samsung/a5xelte" name="android_device_samsung_a5xelte" remote="LOS" />
+	<project path="device/samsung/universal7580-common" name="android_device_samsung_universal7580-common" remote="LOS" />
+	<project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tmp" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="LOS" />
+        <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="LOS" />
+        <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="LOS" />
+        <project path="hardware/samsung_slsi/exynos7580" name="android_hardware_samsung_slsi_exynos7580" remote="LOS" />
+        <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="LOS" />
+        <project path="kernel/samsung/universal7580" name="android_kernel_samsung_universal7580" remote="LOS" />
+
+
+
+</manifest>
